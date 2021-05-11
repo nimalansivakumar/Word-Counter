@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: 10vh;
+  background: -webkit-linear-gradient(
+    to right,
+    #f37335,
+    #fdc830
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f37335,
+    #fdc830
+  ); 
+  color: #fff;
+}
+
+.navbar h1 {
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px #2e2e2e;
+}

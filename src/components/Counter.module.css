@@ -1,0 +1,39 @@
+.container {
+  max-width: 100%;
+  display: flex;
+  background-color: #fff;
+  min-height: 200px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countBox {
+  background-color: #151515;
+  max-width: 150px;
+  width: 100%;
+  text-align: center;
+  height: 80px;
+  color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  letter-spacing: 1px;
+}
+
+.countBox p {
+  font-size: 1.4rem;
+}
+
+.countBox:hover {
+  background-color: black;
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    flex-direction: column;
+  }
+}
